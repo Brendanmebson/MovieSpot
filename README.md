@@ -1,13 +1,102 @@
-# React + Vite
+## 🎥 MOVIESPOT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern movie browsing app built with React, Vite, Tailwind CSS, TMDB API, and Framer Motion.
+It allows users to search movies, explore categories, view details, and manage their watchlist — all wrapped in a beautiful, responsive, and interactive UI.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 Search Movies – Find movies instantly from TMDB’s vast database.
 
-## Expanding the ESLint configuration
+- 🎭 Browse by Categories – Discover movies by genres like Action, Drama, Comedy, etc.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# MovieSpot
+- 📑 Movie Details – Get full info including release date, ratings, and synopsis.
+
+- 📝 Watchlist – Save your favorite movies for later.
+
+- 🎨 Responsive UI – Works smoothly across devices.
+
+- ⚡ Framer Motion Animations – Smooth transitions & interactive effects.
+
+- 🌙 Dark Mode Ready (optional with Tailwind).
+
+## 🛠️ Tech Stack
+
+- ⚡ Vite
+ – Fast build tool for React
+
+- ⚛️ React
+ – Component-based UI framework
+
+- 🎨 Tailwind CSS
+ – Utility-first styling
+
+- 🎥 TMDB API
+ – Movie database
+
+- 🌀 Framer Motion
+ – Animations
+
+- 🎭 Lucide Icons
+ – Modern, clean icons
+
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+# 1. Clone the repository
+```
+git clone https://github.com/yourusername/moviespot.git
+```
+
+# 2. Navigate to project folder
+```
+cd moviespot
+```
+
+# 3. Install dependencies
+```
+npm install
+```
+
+# 4. Create an .env file in the root directory and add your TMDB API key:
+```
+VITE_TMDB_API_KEY=your_tmdb_api_key_here
+```
+
+# 5. Run the development server
+```
+npm run dev
+```
+
+📂 Project Structure
+```
+moviespot/
+ ├── public/            # Static assets
+ ├── src/
+ │   ├── components/    # Reusable UI components
+ │   ├── pages/         # Pages (Home, Search, Details, Watchlist)
+ │   ├── hooks/         # Custom React hooks
+ │   ├── utils/         # Helper functions
+ │   ├── App.jsx        # Root component
+ │   └── main.jsx       # Entry point
+ ├── .env               # API key config
+ ├── tailwind.config.cjs
+ ├── vite.config.js
+ ├── package.json
+ └── README.md
+```
+
+## 🔑 Environment Variables
+
+Make sure you have an API key from TMDB
+.
+Create a .env file in the root and add:
+```
+
+VITE_TMDB_API_KEY=your_tmdb_api_key_here
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork this repo and submit a pull request.
